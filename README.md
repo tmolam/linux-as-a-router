@@ -10,7 +10,7 @@ The virtual lab consists of three Ubuntu machines. One acts as the router, with 
 
 The Ubuntu router connects both internal networks and forwards their traffic to the Internet.
 
-![Linux router network topology](screenshots/01-network-topology.png)
+![Linux router network topology](screenshots/network-topology.png)
 
 ## Technologies Used
 
@@ -41,19 +41,19 @@ Configured NAT/masquerading on the Internet-facing interface so the internal mac
 
 Used `ping` to verify communication between machines on the separate internal networks.
 
-![Ping connectivity tests](screenshots/02-connectivity-tests.png)
+![Ping connectivity tests](screenshots/ping-connectivity.png)
 
 ### iptables Configuration
 
 The following screenshot shows the forwarding and NAT rules configured in the lab.
 
-![iptables configuration](screenshots/03-iptables-configuration.png)
+![iptables configuration](screenshots/iptables.png)
 
 ### HTTP Connectivity
 
 Used `curl` to test HTTP connectivity through the configured network.
 
-![curl HTTP connectivity test](screenshots/04-http-connectivity-test.png)
+![curl HTTP connectivity test](screenshots/curl.png)
 
 ## Key Learnings
 
